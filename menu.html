@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Feasto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Feasto</h1>
+    <nav>
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+  </header>
+
+  <main>
+    <section id="menu">
+      <div class="menu-item">
+        <img src="CPizza.png" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>Delicious wood-fired pizza topped with fresh ingredients.</p>
+        <button onclick="orderItem('Pizza')">Order Now</button>
+      </div>
+      <div class="menu-item">
+        <img src="Burger.png" alt="Burger">
+        <h3>Burger</h3>
+        <p>Juicy gourmet burgers served with crispy fries.</p>
+        <button onclick="orderItem('Burger')">Order Now</button>
+      </div>
+      <div class="menu-item">
+        <img src="Pasta.webp" alt="Pasta">
+        <h3>Pasta</h3>
+        <p>Creamy and flavorful pasta made with love.</p>
+        <button onclick="orderItem('Pasta')">Order Now</button>
+      </div>
+      <div class="menu-item">
+        <img src="Dessert.png" alt="Desserts">
+        <h3>Desserts</h3>
+        <p>Indulge in heavenly desserts to complete your meal.</p>
+        <button onclick="orderItem('Desserts')">Order Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Feasto. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
